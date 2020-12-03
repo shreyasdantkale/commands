@@ -1,0 +1,9 @@
+## PIP:
+pip freeze > requirements.txt : get all installed libraries in requirements.txt
+pip freeze | xargs pip uninstall -y : uninstall all libs
+
+## Virtual env:
+python3 -m venv /path : create virtual environment
+source venv_path/bin/activate : activate virtual environment
+deactivate : deactivate virtual env
+
